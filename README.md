@@ -44,7 +44,7 @@ After download and preprocessing, three preprocessed data bin will be shown in `
 * `data_mixed_ft`: after bidirectional training, fine-tuning on unidirectional translation data
 
 ### Training
-Train a model for one-way translation. Note that passing field `--use_drop_embedding` to consider number of PLM layers. Training with less GPUs should increase `--update-freq`, e.g., `update-freq=8` for 2 GPUs and `update-freq=4` for 4 GPUs.
+Train a model for one-way translation. Note that passing the field `--use_drop_embedding` should be considered to account for the number of PLM layers. Additionally, the `--alpha` parameter is used to specify the α value for Cosine Alignment, with a default setting of 500. The `--lr-mul` parameter indicates the ρ value applied to PLM in separate learning rates, with a default of 0.01. Training with fewer GPUs should prompt an increase in `--update-freq`, e.g., setting `update-freq=8` for 2 GPUs and `update-freq=4` for 4 GPUs.
 ```
 bash train.sh
 ```
