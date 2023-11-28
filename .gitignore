@@ -130,6 +130,6 @@ data-bin/
 
 # Experimental Folder
 experimental/*
-models/
-download_prepare/data*/
-download_prepare/*models/
+/.models/
+/download_prepare/data*/
+/download_prepare/*models/
