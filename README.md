@@ -1,5 +1,8 @@
 # Integrating Pre-trained Language Model into Neural Machine Translation
 
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/integrating-pre-trained-language-model-into/machine-translation-on-iwslt2014-english)](https://paperswithcode.com/sota/machine-translation-on-iwslt2014-english?p=integrating-pre-trained-language-model-into)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/integrating-pre-trained-language-model-into/machine-translation-on-iwslt2014-german)](https://paperswithcode.com/sota/machine-translation-on-iwslt2014-german?p=integrating-pre-trained-language-model-into)
+
 This is the repository for paper "[Integrating Pre-trained Language Model into Neural Machine Translation](https://arxiv.org/abs/2310.19680)".
 ```
 @misc{hwang2023integrating,
